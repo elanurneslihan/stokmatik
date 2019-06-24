@@ -1,10 +1,4 @@
-//
-//  AddProductController.swift
-//  IosApp
-//
-//  Created by Mahmut Karali on 16.06.2019.
-//  Copyright © 2019 Mahmut Karali. All rights reserved.
-//
+
 
 import UIKit
 
