@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  IosApp
-//
-//  Created by Mahmut Karali on 7.05.2019.
-//  Copyright © 2019 Mahmut Karali. All rights reserved.
-//
 
 import UIKit
 import Foundation
