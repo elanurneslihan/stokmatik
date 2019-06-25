@@ -1,3 +1,4 @@
+ 
 
 import UIKit
 import Foundation
@@ -36,7 +37,6 @@ class ViewController: UIViewController {
                         print (value)
                         if let array : [[String : String ]] = value as? [[String :String]] {
                             for dict in array{
-                                //if(dict["name"]! == "neslihan" && dict["password"]! == "rr33!.")
                                 if(dict["name"]! == self.username.text! && dict["password"]! == self.password.text!){
                                     flag = false
                                 }
@@ -46,15 +46,24 @@ class ViewController: UIViewController {
                 }
                 
                 if(flag){
-                    let alertController = UIAlertController(title: "iOScreator", message: "Hello, world!", preferredStyle: .alert)
-                    alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
-                    self.present(alertController, animated: true, completion: nil)
+                    
                 }else{
-                }
+                    let button = UIButton()
+                    button.frame = CGRect(x:50, y: 300, width: 100, height: 30)
+                    button.backgroundColor = UIColor.green
+                    button.setTitle("Git", for: .normal)
+                    button.addTarget(self, action: #selector(self.buttonAction), for: .touchUpInside)
+                    self.view.addSubview(button)       }
             }catch{
             }
         }
         }.resume()
+    }
+    
+    @objc func buttonAction(sender: UIButton!) {
+        print("Button tapped")
+        performSegue(withIdentifier: "segue", sender: nil)
+
     }
     
     override func viewDidLoad() {

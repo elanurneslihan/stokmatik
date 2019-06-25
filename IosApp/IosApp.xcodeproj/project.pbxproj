@@ -15,6 +15,8 @@
 		CA0395BF2281FE9B0066991B /* IosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0395BE2281FE9B0066991B /* IosAppTests.swift */; };
 		CA0395CA2281FE9B0066991B /* IosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0395C92281FE9B0066991B /* IosAppUITests.swift */; };
 		CA25D1002295B4A8008F5E76 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA25D0FF2295B4A8008F5E76 /* MainController.swift */; };
+		CA6DCA4522B82C240067781E /* UpdateProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6DCA4422B82C240067781E /* UpdateProductController.swift */; };
+		CA73E09E22C1594100B39BAB /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73E09D22C1594100B39BAB /* ListController.swift */; };
 		CABB507122AD42E600A66D86 /* UserRecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABB507022AD42E600A66D86 /* UserRecordController.swift */; };
 		CAE6364822B6B51900DEC140 /* AddProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE6364722B6B51900DEC140 /* AddProductController.swift */; };
 		CAE6364A22B6D16200DEC140 /* DeleteProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE6364922B6D16200DEC140 /* DeleteProductController.swift */; };
@@ -52,6 +54,8 @@
 		CA0395C92281FE9B0066991B /* IosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosAppUITests.swift; sourceTree = "<group>"; };
 		CA0395CB2281FE9B0066991B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA25D0FF2295B4A8008F5E76 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		CA6DCA4422B82C240067781E /* UpdateProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProductController.swift; sourceTree = "<group>"; };
+		CA73E09D22C1594100B39BAB /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 		CABB507022AD42E600A66D86 /* UserRecordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRecordController.swift; sourceTree = "<group>"; };
 		CAE6364722B6B51900DEC140 /* AddProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductController.swift; sourceTree = "<group>"; };
 		CAE6364922B6D16200DEC140 /* DeleteProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteProductController.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				CABB507022AD42E600A66D86 /* UserRecordController.swift */,
 				CAE6364722B6B51900DEC140 /* AddProductController.swift */,
 				CAE6364922B6D16200DEC140 /* DeleteProductController.swift */,
+				CA6DCA4422B82C240067781E /* UpdateProductController.swift */,
+				CA73E09D22C1594100B39BAB /* ListController.swift */,
 			);
 			path = IosApp;
 			sourceTree = "<group>";
@@ -270,10 +276,12 @@
 			files = (
 				CAE6364A22B6D16200DEC140 /* DeleteProductController.swift in Sources */,
 				CA0395AC2281FE990066991B /* ViewController.swift in Sources */,
+				CA6DCA4522B82C240067781E /* UpdateProductController.swift in Sources */,
 				CABB507122AD42E600A66D86 /* UserRecordController.swift in Sources */,
 				CA25D1002295B4A8008F5E76 /* MainController.swift in Sources */,
 				CA0395AA2281FE990066991B /* AppDelegate.swift in Sources */,
 				CAE6364822B6B51900DEC140 /* AddProductController.swift in Sources */,
+				CA73E09E22C1594100B39BAB /* ListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

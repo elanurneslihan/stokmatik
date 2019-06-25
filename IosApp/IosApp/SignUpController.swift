@@ -1,3 +1,10 @@
+//
+//  SignUo.swift
+//  IosApp
+//
+//  Created by Mahmut Karali on 8.06.2019.
+//  Copyright © 2019 Mahmut Karali. All rights reserved.
+//
 
 import UIKit
 
